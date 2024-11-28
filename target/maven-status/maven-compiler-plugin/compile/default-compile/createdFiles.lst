@@ -1,0 +1,8 @@
+ankitsolanki\PageObjects\LandingPage.class
+ankitsolanki\PageObjects\OrderPage.class
+ankitsolanki\PageObjects\ConfirmationPage.class
+ankitsolanki\PageObjects\CartPage.class
+ankitsolanki\PageObjects\CheckoutPage.class
+ankitsolanki\AbstractComponents\AbstractComponent.class
+ankitsolanki\resources\ExtentReportFile.class
+ankitsolanki\PageObjects\ProductCatalogue.class
