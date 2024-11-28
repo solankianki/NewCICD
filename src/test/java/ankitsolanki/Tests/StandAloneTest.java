@@ -29,7 +29,7 @@ public class StandAloneTest {
 		driver.findElement(By.id("userPassword")).sendKeys("ankit123");
 		driver.findElement(By.id("login")).click();
 		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(5));
-		
+		//New comments are added
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".card-body")));
 		List<WebElement> items = driver.findElements(By.cssSelector(".card-body"));
 		WebElement prod=items.stream().filter(item->item.findElement(By.cssSelector(".card-body b")).getText()
