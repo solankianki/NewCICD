@@ -37,7 +37,7 @@ public class StandAloneTest {
 		prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 		
 		
-		
+		//Yes we have successfully integrate the CI/CD pipeline
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
 		w.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 //		for (WebElement item : items) {
